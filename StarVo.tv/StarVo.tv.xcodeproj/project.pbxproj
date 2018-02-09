@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C79B398921FF348E76A6154 /* libPods-StarVo.tvTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8DDA475E0ED768CC2E50D6 /* libPods-StarVo.tvTests.a */; };
+		70BBA2391FDDB71C00DA3E8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BBA2381FDDB71C00DA3E8F /* AppDelegate.m */; };
+		70BBA23C1FDDB71C00DA3E8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BBA23B1FDDB71C00DA3E8F /* ViewController.m */; };
+		70BBA2421FDDB71C00DA3E8F /* StarVo_tv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70BBA2401FDDB71C00DA3E8F /* StarVo_tv.xcdatamodeld */; };
+		70BBA2441FDDB71C00DA3E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BBA2431FDDB71C00DA3E8F /* Assets.xcassets */; };
+		70BBA2471FDDB71C00DA3E8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70BBA2451FDDB71C00DA3E8F /* LaunchScreen.storyboard */; };
+		70BBA24A1FDDB71C00DA3E8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BBA2491FDDB71C00DA3E8F /* main.m */; };
+		70BBA2541FDDB71C00DA3E8F /* StarVo_tvTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BBA2531FDDB71C00DA3E8F /* StarVo_tvTests.m */; };
+		70BBA25F1FDDB71C00DA3E8F /* StarVo_tvUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BBA25E1FDDB71C00DA3E8F /* StarVo_tvUITests.m */; };
+		70BBA26D1FDDB77600DA3E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70BBA26C1FDDB77600DA3E8F /* Main.storyboard */; };
+		BD51D46FE7454B8D8C548793 /* libPods-StarVo.tv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2F592D145F73D8E871FB67 /* libPods-StarVo.tv.a */; };
+		F7645EEF2661BD2121697DBA /* libPods-StarVo.tvUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6106D3EF6A6A3806F13ECF /* libPods-StarVo.tvUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70BBA2501FDDB71C00DA3E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70BBA22C1FDDB71C00DA3E8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70BBA2331FDDB71C00DA3E8F;
+			remoteInfo = StarVo.tv;
+		};
+		70BBA25B1FDDB71C00DA3E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70BBA22C1FDDB71C00DA3E8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70BBA2331FDDB71C00DA3E8F;
+			remoteInfo = StarVo.tv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111F2E3C8B9D415AB6472F39 /* Pods-StarVo.tvUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarVo.tvUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarVo.tvUITests/Pods-StarVo.tvUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E2F592D145F73D8E871FB67 /* libPods-StarVo.tv.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarVo.tv.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8DDA475E0ED768CC2E50D6 /* libPods-StarVo.tvTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarVo.tvTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C23568A5FEDCD8F0309FC9F /* Pods-StarVo.tv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarVo.tv.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarVo.tv/Pods-StarVo.tv.release.xcconfig"; sourceTree = "<group>"; };
+		70BBA2341FDDB71C00DA3E8F /* StarVo.tv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarVo.tv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BBA2371FDDB71C00DA3E8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70BBA2381FDDB71C00DA3E8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70BBA23A1FDDB71C00DA3E8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70BBA23B1FDDB71C00DA3E8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70BBA2411FDDB71C00DA3E8F /* StarVo_tv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarVo_tv.xcdatamodel; sourceTree = "<group>"; };
+		70BBA2431FDDB71C00DA3E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70BBA2461FDDB71C00DA3E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70BBA2481FDDB71C00DA3E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70BBA2491FDDB71C00DA3E8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70BBA24F1FDDB71C00DA3E8F /* StarVo.tvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarVo.tvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BBA2531FDDB71C00DA3E8F /* StarVo_tvTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarVo_tvTests.m; sourceTree = "<group>"; };
+		70BBA2551FDDB71C00DA3E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70BBA25A1FDDB71C00DA3E8F /* StarVo.tvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarVo.tvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BBA25E1FDDB71C00DA3E8F /* StarVo_tvUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarVo_tvUITests.m; sourceTree = "<group>"; };
+		70BBA2601FDDB71C00DA3E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70BBA26C1FDDB77600DA3E8F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		858B0DB00A14C36533AC712F /* Pods-StarVo.tvTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarVo.tvTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarVo.tvTests/Pods-StarVo.tvTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C98DEE8F921506FC3C0A87D /* Pods-StarVo.tv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarVo.tv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarVo.tv/Pods-StarVo.tv.debug.xcconfig"; sourceTree = "<group>"; };
+		AA6106D3EF6A6A3806F13ECF /* libPods-StarVo.tvUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarVo.tvUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2789C0237C1FA3E35A664B1 /* Pods-StarVo.tvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarVo.tvTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarVo.tvTests/Pods-StarVo.tvTests.release.xcconfig"; sourceTree = "<group>"; };
+		ECA26BB7A26450C44D2CA74F /* Pods-StarVo.tvUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarVo.tvUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarVo.tvUITests/Pods-StarVo.tvUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70BBA2311FDDB71C00DA3E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD51D46FE7454B8D8C548793 /* libPods-StarVo.tv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BBA24C1FDDB71C00DA3E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C79B398921FF348E76A6154 /* libPods-StarVo.tvTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BBA2571FDDB71C00DA3E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7645EEF2661BD2121697DBA /* libPods-StarVo.tvUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49FF3ED4304E2875698E4D4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E2F592D145F73D8E871FB67 /* libPods-StarVo.tv.a */,
+				4D8DDA475E0ED768CC2E50D6 /* libPods-StarVo.tvTests.a */,
+				AA6106D3EF6A6A3806F13ECF /* libPods-StarVo.tvUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70BBA22B1FDDB71C00DA3E8F = {
+			isa = PBXGroup;
+			children = (
+				70BBA2361FDDB71C00DA3E8F /* StarVo.tv */,
+				70BBA2521FDDB71C00DA3E8F /* StarVo.tvTests */,
+				70BBA25D1FDDB71C00DA3E8F /* StarVo.tvUITests */,
+				70BBA2351FDDB71C00DA3E8F /* Products */,
+				DDC531578B5DB62A48FE9875 /* Pods */,
+				49FF3ED4304E2875698E4D4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70BBA2351FDDB71C00DA3E8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70BBA2341FDDB71C00DA3E8F /* StarVo.tv.app */,
+				70BBA24F1FDDB71C00DA3E8F /* StarVo.tvTests.xctest */,
+				70BBA25A1FDDB71C00DA3E8F /* StarVo.tvUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70BBA2361FDDB71C00DA3E8F /* StarVo.tv */ = {
+			isa = PBXGroup;
+			children = (
+				70BBA2371FDDB71C00DA3E8F /* AppDelegate.h */,
+				70BBA2381FDDB71C00DA3E8F /* AppDelegate.m */,
+				70BBA23A1FDDB71C00DA3E8F /* ViewController.h */,
+				70BBA23B1FDDB71C00DA3E8F /* ViewController.m */,
+				70BBA2431FDDB71C00DA3E8F /* Assets.xcassets */,
+				70BBA2451FDDB71C00DA3E8F /* LaunchScreen.storyboard */,
+				70BBA26C1FDDB77600DA3E8F /* Main.storyboard */,
+				70BBA2481FDDB71C00DA3E8F /* Info.plist */,
+				70BBA2491FDDB71C00DA3E8F /* main.m */,
+				70BBA2401FDDB71C00DA3E8F /* StarVo_tv.xcdatamodeld */,
+			);
+			path = StarVo.tv;
+			sourceTree = "<group>";
+		};
+		70BBA2521FDDB71C00DA3E8F /* StarVo.tvTests */ = {
+			isa = PBXGroup;
+			children = (
+				70BBA2531FDDB71C00DA3E8F /* StarVo_tvTests.m */,
+				70BBA2551FDDB71C00DA3E8F /* Info.plist */,
+			);
+			path = StarVo.tvTests;
+			sourceTree = "<group>";
+		};
+		70BBA25D1FDDB71C00DA3E8F /* StarVo.tvUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70BBA25E1FDDB71C00DA3E8F /* StarVo_tvUITests.m */,
+				70BBA2601FDDB71C00DA3E8F /* Info.plist */,
+			);
+			path = StarVo.tvUITests;
+			sourceTree = "<group>";
+		};
+		DDC531578B5DB62A48FE9875 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C98DEE8F921506FC3C0A87D /* Pods-StarVo.tv.debug.xcconfig */,
+				5C23568A5FEDCD8F0309FC9F /* Pods-StarVo.tv.release.xcconfig */,
+				858B0DB00A14C36533AC712F /* Pods-StarVo.tvTests.debug.xcconfig */,
+				E2789C0237C1FA3E35A664B1 /* Pods-StarVo.tvTests.release.xcconfig */,
+				111F2E3C8B9D415AB6472F39 /* Pods-StarVo.tvUITests.debug.xcconfig */,
+				ECA26BB7A26450C44D2CA74F /* Pods-StarVo.tvUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70BBA2331FDDB71C00DA3E8F /* StarVo.tv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70BBA2631FDDB71C00DA3E8F /* Build configuration list for PBXNativeTarget "StarVo.tv" */;
+			buildPhases = (
+				4CF1FB2BECEC666490774F08 /* [CP] Check Pods Manifest.lock */,
+				70BBA2301FDDB71C00DA3E8F /* Sources */,
+				70BBA2311FDDB71C00DA3E8F /* Frameworks */,
+				70BBA2321FDDB71C00DA3E8F /* Resources */,
+				3D90AD4325809C94FDD8B06F /* [CP] Embed Pods Frameworks */,
+				807B349337DF4F269108AE7D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarVo.tv;
+			productName = StarVo.tv;
+			productReference = 70BBA2341FDDB71C00DA3E8F /* StarVo.tv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70BBA24E1FDDB71C00DA3E8F /* StarVo.tvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70BBA2661FDDB71C00DA3E8F /* Build configuration list for PBXNativeTarget "StarVo.tvTests" */;
+			buildPhases = (
+				31DEA48BC45289185D60182B /* [CP] Check Pods Manifest.lock */,
+				70BBA24B1FDDB71C00DA3E8F /* Sources */,
+				70BBA24C1FDDB71C00DA3E8F /* Frameworks */,
+				70BBA24D1FDDB71C00DA3E8F /* Resources */,
+				B635F3BA1D543C7904574F88 /* [CP] Embed Pods Frameworks */,
+				821E963516FA74E07E65B150 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70BBA2511FDDB71C00DA3E8F /* PBXTargetDependency */,
+			);
+			name = StarVo.tvTests;
+			productName = StarVo.tvTests;
+			productReference = 70BBA24F1FDDB71C00DA3E8F /* StarVo.tvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70BBA2591FDDB71C00DA3E8F /* StarVo.tvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70BBA2691FDDB71C00DA3E8F /* Build configuration list for PBXNativeTarget "StarVo.tvUITests" */;
+			buildPhases = (
+				AC57E7DCA37867CC8504FEA6 /* [CP] Check Pods Manifest.lock */,
+				70BBA2561FDDB71C00DA3E8F /* Sources */,
+				70BBA2571FDDB71C00DA3E8F /* Frameworks */,
+				70BBA2581FDDB71C00DA3E8F /* Resources */,
+				A090A408F5750C8DE0576305 /* [CP] Embed Pods Frameworks */,
+				CA574EEDFD268386AA134A16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70BBA25C1FDDB71C00DA3E8F /* PBXTargetDependency */,
+			);
+			name = StarVo.tvUITests;
+			productName = StarVo.tvUITests;
+			productReference = 70BBA25A1FDDB71C00DA3E8F /* StarVo.tvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70BBA22C1FDDB71C00DA3E8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Jeanie House";
+				TargetAttributes = {
+					70BBA2331FDDB71C00DA3E8F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					70BBA24E1FDDB71C00DA3E8F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70BBA2331FDDB71C00DA3E8F;
+					};
+					70BBA2591FDDB71C00DA3E8F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70BBA2331FDDB71C00DA3E8F;
+					};
+				};
+			};
+			buildConfigurationList = 70BBA22F1FDDB71C00DA3E8F /* Build configuration list for PBXProject "StarVo.tv" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70BBA22B1FDDB71C00DA3E8F;
+			productRefGroup = 70BBA2351FDDB71C00DA3E8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70BBA2331FDDB71C00DA3E8F /* StarVo.tv */,
+				70BBA24E1FDDB71C00DA3E8F /* StarVo.tvTests */,
+				70BBA2591FDDB71C00DA3E8F /* StarVo.tvUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70BBA2321FDDB71C00DA3E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BBA26D1FDDB77600DA3E8F /* Main.storyboard in Resources */,
+				70BBA2471FDDB71C00DA3E8F /* LaunchScreen.storyboard in Resources */,
+				70BBA2441FDDB71C00DA3E8F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BBA24D1FDDB71C00DA3E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BBA2581FDDB71C00DA3E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31DEA48BC45289185D60182B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarVo.tvTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D90AD4325809C94FDD8B06F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarVo.tv/Pods-StarVo.tv-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CF1FB2BECEC666490774F08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarVo.tv-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		807B349337DF4F269108AE7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StarVo.tv/Pods-StarVo.tv-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/VKFoundation/Assets/VKFoundation_themes.plist",
+				"${PODS_ROOT}/VKFoundation/Assets/VKPickerButton_bg.png",
+				"${PODS_ROOT}/VKFoundation/Assets/VKPickerButton_bg@2x.png",
+				"${PODS_ROOT}/VKFoundation/Assets/VKPickerButton_cross.png",
+				"${PODS_ROOT}/VKFoundation/Assets/VKPickerButton_cross@2x.png",
+				"${PODS_ROOT}/VKFoundation/Assets/VKScrubber_max.png",
+				"${PODS_ROOT}/VKFoundation/Assets/VKScrubber_max@2x.png",
+				"${PODS_ROOT}/VKFoundation/Assets/VKScrubber_min.png",
+				"${PODS_ROOT}/VKFoundation/Assets/VKScrubber_min@2x.png",
+				"${PODS_ROOT}/VKFoundation/Assets/VKScrubber_thumb.png",
+				"${PODS_ROOT}/VKFoundation/Assets/VKScrubber_thumb@2x.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_close.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_close@2x.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_cross.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_cross@2x.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_next.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_next@2x.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_pause.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_pause@2x.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_pause_big.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_pause_big@2x.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_play.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_play@2x.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_play_big.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_play_big@2x.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_rewind.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_rewind@2x.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_zoom_in.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_zoom_in@2x.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_zoom_out.png",
+				"${PODS_ROOT}/VKVideoPlayer/Assets/VKVideoPlayer_zoom_out@2x.png",
+				"${PODS_ROOT}/VKVideoPlayer/Classes/ios/VKVideoPlayerView.xib",
+				"${PODS_ROOT}/VKVideoPlayer/Classes/ios/VKVideoPlayerViewController~ipad.xib",
+				"${PODS_ROOT}/VKVideoPlayer/Classes/ios/VKVideoPlayerViewController~iphone.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarVo.tv/Pods-StarVo.tv-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		821E963516FA74E07E65B150 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarVo.tvTests/Pods-StarVo.tvTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A090A408F5750C8DE0576305 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarVo.tvUITests/Pods-StarVo.tvUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC57E7DCA37867CC8504FEA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarVo.tvUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B635F3BA1D543C7904574F88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarVo.tvTests/Pods-StarVo.tvTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA574EEDFD268386AA134A16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarVo.tvUITests/Pods-StarVo.tvUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70BBA2301FDDB71C00DA3E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BBA2421FDDB71C00DA3E8F /* StarVo_tv.xcdatamodeld in Sources */,
+				70BBA23C1FDDB71C00DA3E8F /* ViewController.m in Sources */,
+				70BBA24A1FDDB71C00DA3E8F /* main.m in Sources */,
+				70BBA2391FDDB71C00DA3E8F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BBA24B1FDDB71C00DA3E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BBA2541FDDB71C00DA3E8F /* StarVo_tvTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BBA2561FDDB71C00DA3E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BBA25F1FDDB71C00DA3E8F /* StarVo_tvUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70BBA2511FDDB71C00DA3E8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70BBA2331FDDB71C00DA3E8F /* StarVo.tv */;
+			targetProxy = 70BBA2501FDDB71C00DA3E8F /* PBXContainerItemProxy */;
+		};
+		70BBA25C1FDDB71C00DA3E8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70BBA2331FDDB71C00DA3E8F /* StarVo.tv */;
+			targetProxy = 70BBA25B1FDDB71C00DA3E8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70BBA2451FDDB71C00DA3E8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70BBA2461FDDB71C00DA3E8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70BBA2611FDDB71C00DA3E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70BBA2621FDDB71C00DA3E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70BBA2641FDDB71C00DA3E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C98DEE8F921506FC3C0A87D /* Pods-StarVo.tv.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5GR3WX374;
+				INFOPLIST_FILE = StarVo.tv/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StarMe.StarVo-tv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70BBA2651FDDB71C00DA3E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C23568A5FEDCD8F0309FC9F /* Pods-StarVo.tv.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5GR3WX374;
+				INFOPLIST_FILE = StarVo.tv/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StarMe.StarVo-tv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70BBA2671FDDB71C00DA3E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 858B0DB00A14C36533AC712F /* Pods-StarVo.tvTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5GR3WX374;
+				INFOPLIST_FILE = StarVo.tvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StarMe.StarVo-tvTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarVo.tv.app/StarVo.tv";
+			};
+			name = Debug;
+		};
+		70BBA2681FDDB71C00DA3E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2789C0237C1FA3E35A664B1 /* Pods-StarVo.tvTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5GR3WX374;
+				INFOPLIST_FILE = StarVo.tvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StarMe.StarVo-tvTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarVo.tv.app/StarVo.tv";
+			};
+			name = Release;
+		};
+		70BBA26A1FDDB71C00DA3E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111F2E3C8B9D415AB6472F39 /* Pods-StarVo.tvUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5GR3WX374;
+				INFOPLIST_FILE = StarVo.tvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StarMe.StarVo-tvUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarVo.tv;
+			};
+			name = Debug;
+		};
+		70BBA26B1FDDB71C00DA3E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA26BB7A26450C44D2CA74F /* Pods-StarVo.tvUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5GR3WX374;
+				INFOPLIST_FILE = StarVo.tvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StarMe.StarVo-tvUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarVo.tv;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70BBA22F1FDDB71C00DA3E8F /* Build configuration list for PBXProject "StarVo.tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BBA2611FDDB71C00DA3E8F /* Debug */,
+				70BBA2621FDDB71C00DA3E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70BBA2631FDDB71C00DA3E8F /* Build configuration list for PBXNativeTarget "StarVo.tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BBA2641FDDB71C00DA3E8F /* Debug */,
+				70BBA2651FDDB71C00DA3E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70BBA2661FDDB71C00DA3E8F /* Build configuration list for PBXNativeTarget "StarVo.tvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BBA2671FDDB71C00DA3E8F /* Debug */,
+				70BBA2681FDDB71C00DA3E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70BBA2691FDDB71C00DA3E8F /* Build configuration list for PBXNativeTarget "StarVo.tvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BBA26A1FDDB71C00DA3E8F /* Debug */,
+				70BBA26B1FDDB71C00DA3E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		70BBA2401FDDB71C00DA3E8F /* StarVo_tv.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				70BBA2411FDDB71C00DA3E8F /* StarVo_tv.xcdatamodel */,
+			);
+			currentVersion = 70BBA2411FDDB71C00DA3E8F /* StarVo_tv.xcdatamodel */;
+			path = StarVo_tv.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 70BBA22C1FDDB71C00DA3E8F /* Project object */;
+}
